@@ -60,5 +60,8 @@ Escrever dentro do .gitignore apenas o que quer ignorar </b>
 <b>Fazer um push e enviar o commit para o remote </b>
 <br><code>git push <i>nome do remote + nome do branch</i></code>
 
+<b>Puxando as alterações que estão no repositório remoto</b>
+<br><code>git pull <i>origin + master</i></code>
+
 
 Fonte: https://www.youtube.com/watch?v=TReVFOxhh7E&index=1&list=PL77JVjKTJT2h4aACrIx1ECmr8h9esjh16
