@@ -2,60 +2,60 @@
 
 COMANDOS BÁSICOS
 
-<!-- Inicializa um repositório Git vazio -->
-git init
+<b>Inicializa um repositório Git vazio</b>
+<br><code>git init</<code>code>
 
-<!-- Definição da assinatura/nome do usuário de cada commit -->
-<!-- O --global aplica a configuração para todos os repositórios que usar no git. Se tirar o --global a configuração fica só no repositório atual. -->
-git config --global user.name "nome"
+<b>Definição da assinatura/nome do usuário de cada commit 
+O --global aplica a configuração para todos os repositórios que usar no git. Se tirar o --global a configuração fica só no repositório atual.</b> 
+<br><code>git config --global user.name "nome"</code>
 
-<!-- Definição da email do usuário de cada commit -->
-git config --global user.email email
+<b>Definição da email do usuário de cada commit</b> 
+<br><code>git config --global user.email email</code>
 
-<!-- Mostra o status dos arquivos dentro do repositório (arquivos rastreados) -->
-<!-- Arquivos não rastreados significa que estão apenas no repositório de trabalho local -->
-git status
+<b>Mostra o status dos arquivos dentro do repositório (arquivos rastreados) 
+Arquivos não rastreados significa que estão apenas no repositório de trabalho local</b> 
+<br><code>git status</code>
 
-<!-- Adiciona um arquivo no meu index -->
-git add nome do arquivo
+<b>Adiciona um arquivo no meu index </b>
+<br><code>git add nome do arquivo</code>
 
-<!-- Adiciona mais de um arquivo no meu index graças ao . -->
-git add .
+<b>Adiciona mais de um arquivo no meu index graças ao .</b> 
+<br><code>git add .</code>
 
-<!-- Enviar o arquivo para o HEAD/fazer o commit -->
-<!-- O -m server para fazer um comentário para o commit -->
-git commit -m "comentário"
+<b>Enviar o arquivo para o HEAD/fazer o commit 
+O -m server para fazer um comentário para o commit </b>
+<br><code>git commit -m "comentário"</code>
 
-<!-- Mostra o log de uso -->
-git log 
+Mostra o log de uso 
+<br><code>git log </code>
 
-<!-- Criar um arquivo .gitignore e dentro dele especificar os arquivos e diretórios a serem ignorados pelo git. -->
-<!-- Escrever dentro do .gitignore apenas o que quer ignorar -->
-.gitignore
-Ex: config.js - ignora um arquivo
-	adm/ - ignora uma pasta
+<b>Criar um arquivo .gitignore e dentro dele especificar os arquivos e diretórios a serem ignorados pelo git. 
+Escrever dentro do .gitignore apenas o que quer ignorar </b>
+	<br>.gitignore
+	Ex: config.js - ignora um arquivo<br>
+	adm/ - ignora uma pasta<br>
 	*.extensão - ignora todos os arquivos com essa extensão
 
-<!-- Adiciona um novo branch -->
-git branch nome do branch
+<b>Adiciona um novo branch</b>
+<br><code>git branch nome do branch</code>
 
-<!-- Muda de branch -->
-git checkout nome do branch
+<b>Muda de branch </b>
+<br><code>git checkout nome do branch</code>
 
-<!-- Cria um novo branch e já muda para ele -->
-git checkout -b nome do branch
+<b>Cria um novo branch e já muda para ele</b>
+<br><code>git checkout -b nome do branch</code>
 
-<!-- Apaga um branch -->
-git branch -D nome do branch
+<b>Apaga um branch </b>
+<br><code>git branch -D nome do branch</code>
 
-<!-- Mescla branchs -->
-git merge nome do branch que quero mesclar
+<b>Mescla branchs </b>
+<br><code>git merge nome do branch que quero mesclar</code>
 
-<!-- Clonar um repositório -->
-git clone endereço do repositório
+<b>Clonar um repositório </b>
+<br><code>git clone endereço do repositório</code>
 
-<!-- Mostra os repositórios remotos -->
-git remote show
+<b>Mostra os repositórios remotos </b>
+<br><code>git remote show</code>
 
-<!-- Fazer um push e enviar o commit para o remote -->
-git push nome do remote nome do branch
+<b>Fazer um push e enviar o commit para o remote </b>
+<br><code>git push nome do remote nome do branch</code>
