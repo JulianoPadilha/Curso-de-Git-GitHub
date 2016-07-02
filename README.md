@@ -3,7 +3,7 @@
 COMANDOS BÁSICOS
 
 <b>Inicializa um repositório Git vazio</b>
-<br><code>git init</<code>code>
+<br><code>git init</code>
 
 <b>Definição da assinatura/nome do usuário de cada commit 
 O --global aplica a configuração para todos os repositórios que usar no git. Se tirar o --global a configuração fica só no repositório atual.</b> 
