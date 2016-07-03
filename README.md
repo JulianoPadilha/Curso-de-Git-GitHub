@@ -5,7 +5,7 @@
 <b>Inicializa um repositório Git vazio</b>
 <br><code>git init</code>
 
-b>Inicializa um repositório Git</b>
+<b>Inicializa um repositório Git</b>
 <br><code>git init <i>nome do repositório</i></code>
 
 <b>Definição da assinatura/nome do usuário de cada commit 
