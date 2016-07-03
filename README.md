@@ -5,6 +5,9 @@
 <b>Inicializa um repositório Git vazio</b>
 <br><code>git init</code>
 
+b>Inicializa um repositório Git</b>
+<br><code>git init <i>nome do repositório</i></code>
+
 <b>Definição da assinatura/nome do usuário de cada commit 
 O --global aplica a configuração para todos os repositórios que usar no git. Se tirar o --global a configuração fica só no repositório atual.</b> 
 <br><code>git config --global user.name <i>"nome de usuário"</i></code>
