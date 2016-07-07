@@ -54,6 +54,8 @@ Escrever dentro do .gitignore apenas o que quer ignorar </b>
 <b>Mescla branchs </b>
 <br><code>git merge <i>nome do branch que quero mesclar</i></code>
 
+<b>Atualizar</b>
+
 <b>Clonar um repositório </b>
 <br><code>git clone <i>endereço do repositório</i></code>
 
