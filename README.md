@@ -51,6 +51,9 @@ Escrever dentro do .gitignore apenas o que quer ignorar </b>
 <b>Apaga um branch </b>
 <br><code>git branch -D <i>nome do branch</i></code>
 
+<b>Commita uma nova branch/cria uma nova branch no GitHub</b>
+<br><code>git push -u origin <i>nome da branch</i></code>
+
 <b>Mescla branchs </b>
 <br><code>git merge <i>nome do branch que quero mesclar</i></code>
 
